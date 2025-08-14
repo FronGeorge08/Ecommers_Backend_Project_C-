@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDomain\BaseDomain.csproj" />
+    <ProjectReference Include="..\EccomersAPI.Database\EccomersAPI.Database.csproj" />
+    <ProjectReference Include="..\EccomersAPI.Repositories\EccomersAPI.Repositories.csproj" />
+    <ProjectReference Include="..\EcommersAPI.Domain\EcommersAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

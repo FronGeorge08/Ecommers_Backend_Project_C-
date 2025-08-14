@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommers_API", "Ecommers_API\Ecommers_API.csproj", "{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommersAPI.Domain", "EcommersAPI.Domain\EcommersAPI.Domain.csproj", "{FFEB7704-28BA-41BE-8433-BBF2DCEED068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.Database", "EccomersAPI.Database\EccomersAPI.Database.csproj", "{8EB5BD06-8372-4EB3-84BF-A009B1E9897A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.CommonDomain", "EccomersAPI.CommonDomain\EccomersAPI.CommonDomain.csproj", "{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDomain", "BaseDomain\BaseDomain.csproj", "{0E985FA4-88AF-4EE3-8487-855DC11EEC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.DataAbstraction", "EcomersAPI.DataAbstraction\EccomersAPI.DataAbstraction.csproj", "{A1EB4962-20A0-42C8-8602-A14F6AA7412E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.Repositories", "EccomersAPI.Repositories\EccomersAPI.Repositories.csproj", "{E926FC27-C939-4B22-B5A8-F07E867C84DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.BusinessLogics", "EccomersAPI.BusinessLogics\EccomersAPI.BusinessLogics.csproj", "{24AA4C86-CDD3-4D99-92BF-97DF479A5785}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEB7704-28BA-41BE-8433-BBF2DCEED068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEB7704-28BA-41BE-8433-BBF2DCEED068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEB7704-28BA-41BE-8433-BBF2DCEED068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEB7704-28BA-41BE-8433-BBF2DCEED068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB5BD06-8372-4EB3-84BF-A009B1E9897A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB5BD06-8372-4EB3-84BF-A009B1E9897A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB5BD06-8372-4EB3-84BF-A009B1E9897A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB5BD06-8372-4EB3-84BF-A009B1E9897A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E985FA4-88AF-4EE3-8487-855DC11EEC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E985FA4-88AF-4EE3-8487-855DC11EEC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E985FA4-88AF-4EE3-8487-855DC11EEC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E985FA4-88AF-4EE3-8487-855DC11EEC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EB4962-20A0-42C8-8602-A14F6AA7412E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EB4962-20A0-42C8-8602-A14F6AA7412E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EB4962-20A0-42C8-8602-A14F6AA7412E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EB4962-20A0-42C8-8602-A14F6AA7412E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E926FC27-C939-4B22-B5A8-F07E867C84DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E926FC27-C939-4B22-B5A8-F07E867C84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E926FC27-C939-4B22-B5A8-F07E867C84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E926FC27-C939-4B22-B5A8-F07E867C84DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F757CAF4-A023-4589-9855-474371963FBF}
+	EndGlobalSection
+EndGlobal

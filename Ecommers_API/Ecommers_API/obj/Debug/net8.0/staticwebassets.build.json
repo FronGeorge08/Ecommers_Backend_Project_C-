@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7bZEBtA5+4DP/LqXsGDFxLfi3Nexs5DCz9QRWOiHbZA=",
+  "Source": "Ecommers_API",
+  "BasePath": "_content/Ecommers_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EccomersAPI.DataAbstraction/1.0.0": {
+        "runtime": {
+          "EccomersAPI.DataAbstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EccomersAPI.DataAbstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

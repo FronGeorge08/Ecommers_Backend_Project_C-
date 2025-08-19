@@ -9,3 +9,16 @@ C:\Users\frong\Desktop\Project\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug
 C:\Users\frong\Desktop\Project\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\refint\EccomersAPI.DataAbstraction.dll
 C:\Users\frong\Desktop\Project\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.pdb
 C:\Users\frong\Desktop\Project\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\ref\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\bin\Debug\net8.0\EccomersAPI.DataAbstraction.deps.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\bin\Debug\net8.0\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\bin\Debug\net8.0\EccomersAPI.DataAbstraction.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.AssemblyInfoInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.AssemblyInfo.cs
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.csproj.CoreCompileInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.sourcelink.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\refint\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\ref\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcomersAPI.DataAbstraction\obj\Debug\net8.0\EccomersAPI.DataAbstraction.csproj.AssemblyReference.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {}
+    "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
+    "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
+        "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
         "projectName": "EccomersAPI.Database",
-        "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
+        "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
         "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\obj\\",
+        "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

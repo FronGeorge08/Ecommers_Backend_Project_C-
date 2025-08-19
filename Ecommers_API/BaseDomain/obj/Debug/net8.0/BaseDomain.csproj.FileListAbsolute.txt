@@ -10,3 +10,16 @@ C:\Users\frong\Desktop\Project\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDoma
 C:\Users\frong\Desktop\Project\Ecommers_API\BaseDomain\obj\Debug\net8.0\refint\BaseDomain.dll
 C:\Users\frong\Desktop\Project\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.pdb
 C:\Users\frong\Desktop\Project\Ecommers_API\BaseDomain\obj\Debug\net8.0\ref\BaseDomain.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\bin\Debug\net8.0\BaseDomain.deps.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\bin\Debug\net8.0\BaseDomain.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\bin\Debug\net8.0\BaseDomain.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.csproj.AssemblyReference.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.AssemblyInfoInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.AssemblyInfo.cs
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.csproj.CoreCompileInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.sourcelink.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\refint\BaseDomain.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\BaseDomain.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\BaseDomain\obj\Debug\net8.0\ref\BaseDomain.dll

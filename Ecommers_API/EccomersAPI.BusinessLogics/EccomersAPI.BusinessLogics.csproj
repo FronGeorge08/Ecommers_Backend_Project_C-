@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="MediatR" Version="13.0.0" />
   </ItemGroup>
 
@@ -14,6 +15,7 @@
     <ProjectReference Include="..\BaseDomain\BaseDomain.csproj" />
     <ProjectReference Include="..\EccomersAPI.Database\EccomersAPI.Database.csproj" />
     <ProjectReference Include="..\EccomersAPI.Repositories\EccomersAPI.Repositories.csproj" />
+    <ProjectReference Include="..\EcomersAPI.DataAbstraction\EccomersAPI.DataAbstraction.csproj" />
     <ProjectReference Include="..\EcommersAPI.Domain\EcommersAPI.Domain.csproj" />
   </ItemGroup>
 

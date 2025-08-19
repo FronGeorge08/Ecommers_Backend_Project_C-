@@ -1,7 +1,12 @@
 using EccomersAPI.Database.Database;
 using EccomersAPI.Db.DatabaseDomain;
+using EccomersAPI.Repositories.Cart;
 using EccomersAPI.Repositories.ProductRepository;
 using EccomersAPI.Repositories.UserRepository;
+using Ecommers_API;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
@@ -55,13 +60,17 @@ internal class Program
         builder.Services.AddSingleton<Database>();
         builder.Services.AddSingleton<ProductRepository>();
         builder.Services.AddSingleton<UserRepository>();
+        builder.Services.AddSingleton<CartRepository>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
+        builder.Services.AddValidatorsFromAssemblies(assemblies);
+        builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        
         var app = builder.Build();
-
+        app.UseMiddleware<GlobalExceptionMiddleware>();
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {

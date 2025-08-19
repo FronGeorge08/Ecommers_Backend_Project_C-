@@ -1,5 +1,4 @@
-﻿using EccomersAPI.CommonDomain.Products;
-using EccomersAPI.Db.DatabaseDomain;
+﻿using EccomersAPI.Db.DatabaseDomain;
 using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.ProductDomain;
 using EcommersAPI.Domain.UserDomain;

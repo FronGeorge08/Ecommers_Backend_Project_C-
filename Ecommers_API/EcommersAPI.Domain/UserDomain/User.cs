@@ -1,5 +1,4 @@
 ﻿using BaseDomain.BaseUser;
-using EccomersAPI.CommonDomain.Users;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;

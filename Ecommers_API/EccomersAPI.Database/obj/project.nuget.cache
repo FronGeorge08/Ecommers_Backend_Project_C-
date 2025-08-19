@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jphXnT5hAqk=",
+  "dgSpecHash": "qjYKwaBDeuQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
+  "projectFilePath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frong\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\frong\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",

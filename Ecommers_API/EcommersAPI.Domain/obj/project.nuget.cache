@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5QA1InhFVbE=",
+  "dgSpecHash": "9qBDz9ADE9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frong\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\frong\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

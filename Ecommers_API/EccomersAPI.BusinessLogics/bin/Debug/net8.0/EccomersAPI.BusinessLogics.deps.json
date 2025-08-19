@@ -9,9 +9,11 @@
       "EccomersAPI.BusinessLogics/1.0.0": {
         "dependencies": {
           "BaseDomain": "1.0.0",
+          "EccomersAPI.DataAbstraction": "1.0.0",
           "EccomersAPI.Database": "1.0.0",
           "EccomersAPI.Repositories": "1.0.0",
           "EcommersAPI.Domain": "1.0.0",
+          "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"
         },
         "runtime": {
@@ -45,6 +47,14 @@
           "lib/net5.0/DnsClient.dll": {
             "assemblyVersion": "1.6.1.0",
             "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "FluentValidation/12.0.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
           }
         }
       },
@@ -311,6 +321,9 @@
         }
       },
       "EccomersAPI.DataAbstraction/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2"
+        },
         "runtime": {
           "EccomersAPI.DataAbstraction.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -385,6 +398,13 @@
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "FluentValidation/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "path": "fluentvalidation/12.0.0",
+      "hashPath": "fluentvalidation.12.0.0.nupkg.sha512"
     },
     "MediatR/13.0.0": {
       "type": "package",

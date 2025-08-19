@@ -1,5 +1,4 @@
 ﻿using BaseDomain.BaseProduct;
-using EccomersAPI.CommonDomain.Products;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
@@ -23,22 +22,6 @@ namespace EcommersAPI.Domain.ProductDomain
             this.Price = price;
             this.Quantity = quantity;
             this.Description = description;
-        }
-        public Product(CreateProductRequestDTO productDTO):base(productDTO.Name,productDTO.Description,productDTO.Price,productDTO.Quantity,productDTO.Brand)
-        {
-            this.Name = productDTO.Name;
-            this.Brand = productDTO.Brand;
-            this.Price = productDTO.Price;
-            this.Quantity = productDTO.Quantity;
-            this.Description = productDTO.Description;
-        }
-        public Product(UpdateProductRequestDTO productDTO) : base(productDTO.Name, productDTO.Description, productDTO.Price, productDTO.Quantity, productDTO.Brand)
-        {
-            this.Name = productDTO.Name;
-            this.Brand = productDTO.Brand;
-            this.Price = productDTO.Price;
-            this.Quantity = productDTO.Quantity;
-            this.Description = productDTO.Description;
         }
         public Product()
         {

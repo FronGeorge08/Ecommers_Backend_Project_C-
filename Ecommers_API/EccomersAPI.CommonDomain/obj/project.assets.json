@@ -149,11 +149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj",
+      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj",
       "projectName": "EccomersAPI.CommonDomain",
-      "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj",
+      "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj",
       "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.CommonDomain\\obj\\",
+      "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,8 +175,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
             }
           }
         }

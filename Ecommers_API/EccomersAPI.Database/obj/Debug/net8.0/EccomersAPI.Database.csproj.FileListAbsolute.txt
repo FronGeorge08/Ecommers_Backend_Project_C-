@@ -10,3 +10,16 @@ C:\Users\frong\Desktop\Project\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.
 C:\Users\frong\Desktop\Project\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\refint\EccomersAPI.Database.dll
 C:\Users\frong\Desktop\Project\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.pdb
 C:\Users\frong\Desktop\Project\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\ref\EccomersAPI.Database.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\bin\Debug\net8.0\EccomersAPI.Database.deps.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\bin\Debug\net8.0\EccomersAPI.Database.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\bin\Debug\net8.0\EccomersAPI.Database.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.csproj.AssemblyReference.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.AssemblyInfoInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.AssemblyInfo.cs
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.csproj.CoreCompileInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.sourcelink.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\refint\EccomersAPI.Database.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\ref\EccomersAPI.Database.dll

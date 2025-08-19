@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductRequestDTO"
+                "$ref": "#/components/schemas/RegisterProductRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductRequestDTO"
+                "$ref": "#/components/schemas/RegisterProductRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductRequestDTO"
+                "$ref": "#/components/schemas/RegisterProductRequest"
               }
             }
           }
@@ -53,7 +53,7 @@
         }
       }
     },
-    "/Product/GetProductById": {
+    "/Product/GetProductById/{Id}": {
       "get": {
         "tags": [
           "Product"
@@ -61,7 +61,8 @@
         "parameters": [
           {
             "name": "Id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -69,24 +70,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -134,30 +118,21 @@
         "tags": [
           "Product"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProductRequestDTO"
+                "$ref": "#/components/schemas/UpdateProductRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProductRequestDTO"
+                "$ref": "#/components/schemas/UpdateProductRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProductRequestDTO"
+                "$ref": "#/components/schemas/UpdateProductRequest"
               }
             }
           }
@@ -191,15 +166,25 @@
         "tags": [
           "Product"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteProductRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteProductRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteProductRequest"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -233,17 +218,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/RegisterShoppingCartRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/RegisterShoppingCartRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/RegisterShoppingCartRequest"
               }
             }
           }
@@ -277,15 +262,25 @@
         "tags": [
           "ShoppingCart"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteShoppingCartsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteShoppingCartsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteShoppingCartsRequest"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -315,30 +310,21 @@
         "tags": [
           "ShoppingCart"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/UpdateShoppingCartRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/UpdateShoppingCartRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BaseShoppingCart"
+                "$ref": "#/components/schemas/UpdateShoppingCartRequest"
               }
             }
           }
@@ -367,7 +353,7 @@
         }
       }
     },
-    "/ShoppingCart/GetShoppingCartById": {
+    "/ShoppingCart/GetShoppingCartById/{Id}": {
       "get": {
         "tags": [
           "ShoppingCart"
@@ -375,7 +361,8 @@
         "parameters": [
           {
             "name": "Id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -383,24 +370,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ShoppingCart"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ShoppingCart"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ShoppingCart"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -452,17 +422,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserRequestDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserRequestDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserRequestDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             }
           }
@@ -496,15 +466,25 @@
         "tags": [
           "User"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteUserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteUserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteUserRequest"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -534,30 +514,21 @@
         "tags": [
           "User"
         ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserRequestDTO"
+                "$ref": "#/components/schemas/UpdateUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserRequestDTO"
+                "$ref": "#/components/schemas/UpdateUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserRequestDTO"
+                "$ref": "#/components/schemas/UpdateUserRequest"
               }
             }
           }
@@ -586,7 +557,7 @@
         }
       }
     },
-    "/User/GetUserById": {
+    "/User/GetUserById/{Id}": {
       "get": {
         "tags": [
           "User"
@@ -594,7 +565,8 @@
         "parameters": [
           {
             "name": "Id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -602,24 +574,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -718,24 +673,7 @@
         },
         "additionalProperties": false
       },
-      "BaseShoppingCart": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "string",
-            "nullable": true
-          },
-          "items": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BaseItem"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateProductRequestDTO": {
+      "DeleteProductRequest": {
         "type": "object",
         "properties": {
           "name": {
@@ -757,26 +695,28 @@
           "brand": {
             "type": "string",
             "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "CreateUserRequestDTO": {
+      "DeleteShoppingCartsRequest": {
         "type": "object",
         "properties": {
-          "name": {
+          "id": {
             "type": "string",
             "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "userName": {
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteUserRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
             "type": "string",
             "nullable": true
           }
@@ -813,28 +753,7 @@
         },
         "additionalProperties": false
       },
-      "ShoppingCart": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "string",
-            "nullable": true
-          },
-          "items": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BaseItem"
-            },
-            "nullable": true
-          },
-          "id": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateProductRequestDTO": {
+      "RegisterProductRequest": {
         "type": "object",
         "properties": {
           "name": {
@@ -856,11 +775,32 @@
           "brand": {
             "type": "string",
             "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "UpdateUserRequestDTO": {
+      "RegisterShoppingCartRequest": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BaseItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterUserRequest": {
         "type": "object",
         "properties": {
           "name": {
@@ -876,6 +816,100 @@
             "nullable": true
           },
           "userName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ShoppingCart": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BaseItem"
+            },
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateProductRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "brand": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateShoppingCartRequest": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BaseItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
             "type": "string",
             "nullable": true
           }

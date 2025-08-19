@@ -13,6 +13,9 @@
           "EccomersAPI.Database": "1.0.0",
           "EccomersAPI.Repositories": "1.0.0",
           "EcommersAPI.Domain": "1.0.0",
+          "FluentValidation": "12.0.0",
+          "FluentValidation.AspNetCore": "11.3.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
           "MediatR": "13.0.0",
           "MediatR.Extensions.Autofac.DependencyInjection": "13.0.0",
           "MongoDB.Driver": "3.4.2",
@@ -61,6 +64,38 @@
           "lib/net5.0/DnsClient.dll": {
             "assemblyVersion": "1.6.1.0",
             "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "FluentValidation/12.0.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.3.1": {
+        "dependencies": {
+          "FluentValidation": "12.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.1.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.0.0": {
+        "dependencies": {
+          "FluentValidation": "12.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
           }
         }
       },
@@ -339,6 +374,12 @@
       },
       "EccomersAPI.BusinessLogics/1.0.0": {
         "dependencies": {
+          "BaseDomain": "1.0.0",
+          "EccomersAPI.DataAbstraction": "1.0.0",
+          "EccomersAPI.Database": "1.0.0",
+          "EccomersAPI.Repositories": "1.0.0",
+          "EcommersAPI.Domain": "1.0.0",
+          "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"
         },
         "runtime": {
@@ -360,6 +401,9 @@
         }
       },
       "EccomersAPI.DataAbstraction/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2"
+        },
         "runtime": {
           "EccomersAPI.DataAbstraction.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -441,6 +485,27 @@
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "FluentValidation/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "path": "fluentvalidation/12.0.0",
+      "hashPath": "fluentvalidation.12.0.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/11.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FjkfrGGwC+25oH8QpX1ti3gxkFjDDtotkAQWyQz2CkwQwEfRKTANjhh77I79kY8dov2ydK1SY+e4jiOWsbbDdQ==",
+      "path": "fluentvalidation.aspnetcore/11.3.1",
+      "hashPath": "fluentvalidation.aspnetcore.11.3.1.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B28fBRL1UjhGsBC8fwV6YBZosh+SiU1FxdD7l7p5dGPgRlVI7UnM+Lgzmg+unZtV1Zxzpaw96UY2MYfMaAd8cg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.0.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512"
     },
     "MediatR/13.0.0": {
       "type": "package",

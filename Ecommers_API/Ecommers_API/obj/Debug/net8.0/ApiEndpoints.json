@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "EccomersAPI.CommonDomain.Products.CreateProductRequestDTO",
+        "Type": "EccomersAPI.BusinessLogics.Products.Register.RegisterProductRequest",
         "IsRequired": true
       }
     ],
@@ -27,16 +27,16 @@
   },
   {
     "ContainingType": "Ecommers_API.Controllers.ProductController",
-    "Method": "Delete_Product",
+    "Method": "DeleteProduct",
     "RelativePath": "Product/DeleteProduct",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "EccomersAPI.BusinessLogics.Products.Delete.DeleteProductRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -53,7 +53,7 @@
   },
   {
     "ContainingType": "Ecommers_API.Controllers.ProductController",
-    "Method": "Get_All_Products",
+    "Method": "GetAllProducts",
     "RelativePath": "Product/GetAllProducts",
     "HttpMethod": "GET",
     "IsController": true,
@@ -73,8 +73,8 @@
   },
   {
     "ContainingType": "Ecommers_API.Controllers.ProductController",
-    "Method": "Get_Product_By_Id",
-    "RelativePath": "Product/GetProductById",
+    "Method": "GetProductById",
+    "RelativePath": "Product/GetProductById/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -82,37 +82,22 @@
       {
         "Name": "Id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "EcommersAPI.Domain.ProductDomain.Product",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Ecommers_API.Controllers.ProductController",
-    "Method": "Update_Product",
+    "Method": "UpdateProduct",
     "RelativePath": "Product/UpdateProduct",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "request",
-        "Type": "EccomersAPI.CommonDomain.Products.UpdateProductRequestDTO",
+        "Type": "EccomersAPI.BusinessLogics.Products.Update.UpdateProductRequest",
         "IsRequired": true
       }
     ],
@@ -138,7 +123,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "BaseDomain.BaseItem.BaseShoppingCart",
+        "Type": "EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart.RegisterShoppingCartRequest",
         "IsRequired": true
       }
     ],
@@ -163,9 +148,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "EccomersAPI.BusinessLogics.ShoppingCartBusiness.DeleteShoppingCarts.DeleteShoppingCartsRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -203,7 +188,7 @@
   {
     "ContainingType": "Ecommers_API.Controllers.ShoppingCartController",
     "Method": "GetShoppingCartbyId",
-    "RelativePath": "ShoppingCart/GetShoppingCartById",
+    "RelativePath": "ShoppingCart/GetShoppingCartById/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -211,20 +196,10 @@
       {
         "Name": "Id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "EcommersAPI.Domain.Cart.ShoppingCart",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Ecommers_API.Controllers.ShoppingCartController",
@@ -235,13 +210,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "shoppingCart",
-        "Type": "BaseDomain.BaseItem.BaseShoppingCart",
+        "Name": "request",
+        "Type": "EccomersAPI.BusinessLogics.ShoppingCartBusiness.UpdateShoppingCart.UpdateShoppingCartRequest",
         "IsRequired": true
       }
     ],
@@ -267,7 +237,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "EccomersAPI.CommonDomain.Users.CreateUserRequestDTO",
+        "Type": "EccomersAPI.CommonDomain.Users.RegisterUserRequest",
         "IsRequired": true
       }
     ],
@@ -292,9 +262,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "EccomersAPI.BusinessLogics.Users.Delete.DeleteUserRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -332,7 +302,7 @@
   {
     "ContainingType": "Ecommers_API.Controllers.UserController",
     "Method": "GetUserbyId",
-    "RelativePath": "User/GetUserById",
+    "RelativePath": "User/GetUserById/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -340,20 +310,10 @@
       {
         "Name": "Id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "EcommersAPI.Domain.UserDomain.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Ecommers_API.Controllers.UserController",
@@ -364,13 +324,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "user",
-        "Type": "EccomersAPI.CommonDomain.Users.UpdateUserRequestDTO",
+        "Name": "request",
+        "Type": "EccomersAPI.CommonDomain.Users.UpdateUserRequest",
         "IsRequired": true
       }
     ],

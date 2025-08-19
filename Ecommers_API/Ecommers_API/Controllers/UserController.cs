@@ -14,6 +14,8 @@ using EccomersAPI.BusinessLogics.Users.GetAllUsers;
 using EccomersAPI.BusinessLogics.Users.GetById;
 using EccomersAPI.BusinessLogics.Users.Update;
 using EccomersAPI.BusinessLogics.Users.Register;
+using System.ComponentModel.DataAnnotations;
+using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
 namespace Ecommers_API.Controllers
 {
     [ApiController]
@@ -47,15 +49,30 @@ namespace Ecommers_API.Controllers
             UpdateUserResponse response = await this.mediator.Send(request);
             return response.result;
         }
-        [HttpGet("GetUserById")]
-        public async Task<User> GetUserbyId(GetByIdRequest request)
+        [HttpGet("GetUserById/{Id}")]
+        public async Task<IActionResult> GetUserbyId(string Id)
         {
-            GetByIdResponse response= await this.mediator.Send(request);
-            return response.user;
+            GetUserByIdRequest request=new GetUserByIdRequest();
+            request.Id=Id;
+            var validator=new GetUserByIdValidator();
+            var validationResult=validator.Validate(request);
+            
+            if (validationResult.IsValid == false)
+            {
+                var errorList = validationResult.Errors.Select(e => new
+                {
+                    field = e.PropertyName,
+                    message = e.ErrorMessage
+                });
+                return this.BadRequest(errorList);
+            }  
+            GetUserByIdResponse response= await this.mediator.Send(request);
+            return this.Ok(response);
         }
         [HttpGet("GetAllUsers")]
-        public async Task<List<User>> GetAllUsers(GetAllUsersRequest request)
+        public async Task<List<User>> GetAllUsers()
         {
+            GetAllUsersRequest request=new GetAllUsersRequest();    
             GetAllUsersResponse response = await this.mediator.Send(request);
             return response.users;
         }

@@ -1,4 +1,6 @@
-﻿using EccomersAPI.Repositories.UserRepository;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.UserRepository;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.UserDomain;
 using MediatR;
 using MongoDB.Driver;
@@ -13,11 +15,11 @@ namespace EccomersAPI.BusinessLogics.Users.Delete
     public class DeleteUserHandler : IRequestHandler<DeleteUserRequest,DeleteUserResponse>
     {
         IMongoCollection<User> usersCollection;
-        UserRepository repository = null;
-        public DeleteUserHandler(EccomersAPI.Db.DatabaseDomain.Database db, UserRepository rez) 
+        IUserRepository repository = null;
+        public DeleteUserHandler(IDatabase db, IUserRepository rez) 
         {
             this.repository = rez;
-            this.usersCollection = db.GetCollection<User>("Users");
+            this.usersCollection = db.GetCollection<User>();
         }
         public async Task<DeleteUserResponse> Handle(DeleteUserRequest request, CancellationToken cancellationToken)
         {

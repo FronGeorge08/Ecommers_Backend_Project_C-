@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.Repositories", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.BusinessLogics", "EccomersAPI.BusinessLogics\EccomersAPI.BusinessLogics.csproj", "{24AA4C86-CDD3-4D99-92BF-97DF479A5785}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EccomersAPI.Services", "EccomersAPI.Services\EccomersAPI.Services.csproj", "{EFEEB49F-2CF6-4B64-B8A9-EA8759A8A6C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24AA4C86-CDD3-4D99-92BF-97DF479A5785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEEB49F-2CF6-4B64-B8A9-EA8759A8A6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEEB49F-2CF6-4B64-B8A9-EA8759A8A6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEEB49F-2CF6-4B64-B8A9-EA8759A8A6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEEB49F-2CF6-4B64-B8A9-EA8759A8A6C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

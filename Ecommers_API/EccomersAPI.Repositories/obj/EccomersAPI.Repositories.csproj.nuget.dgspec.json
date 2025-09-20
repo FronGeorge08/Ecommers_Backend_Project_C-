@@ -174,7 +174,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj": {
+                "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -342,6 +346,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
+            "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.4.2, )"
             }

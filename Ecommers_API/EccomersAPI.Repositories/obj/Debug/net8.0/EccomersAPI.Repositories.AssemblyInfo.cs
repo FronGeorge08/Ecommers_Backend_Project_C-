@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EccomersAPI.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84e4c245a766f270a2ed974cdaecb246593d472f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60837bce7371d163b8d5210cae564424bead2c7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EccomersAPI.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EccomersAPI.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿using BaseDomain.BaseProduct;
+using EccomersAPI.DataAbstraction;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EcommersAPI.Domain.ProductDomain
 {
-    public class Product: BaseProduct
+    public class Product: BaseProduct, IContainsId
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

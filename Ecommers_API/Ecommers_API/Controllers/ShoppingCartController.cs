@@ -6,10 +6,13 @@ using EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart;
 using EccomersAPI.BusinessLogics.ShoppingCartBusiness.UpdateShoppingCart;
 using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
 using EccomersAPI.CommonDomain.Users;
+using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.Db.DatabaseDomain;
 using EccomersAPI.Repositories.Cart;
 using EccomersAPI.Repositories.UserRepository;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
+using EcommersAPI.Domain.ProductDomain;
 using EcommersAPI.Domain.UserDomain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -21,14 +24,11 @@ namespace Ecommers_API.Controllers
     [Route("[controller]")]
     public class ShoppingCartController: ControllerBase
     {
-        IMongoCollection<ShoppingCart> ShoppingCartCollection;
-        CartRepository repository = null;
+        
         IMediator mediator;
-        public ShoppingCartController(Database db, CartRepository rez,IMediator med)
+        public ShoppingCartController(IMediator med)
         {
             this.mediator = med;
-            this.repository = rez;
-            this.ShoppingCartCollection = db.GetCollection<ShoppingCart>("ShoppingCarts");
         }
         [HttpPost("CreateShoppingCart")]
         public async Task<string> CreateShoppingCart(RegisterShoppingCartRequest request)

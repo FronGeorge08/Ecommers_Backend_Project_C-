@@ -142,3 +142,12 @@ C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\obj
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\EccomersAPI.Services.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\EccomersAPI.Services.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\Scrutor.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\Ecommers_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

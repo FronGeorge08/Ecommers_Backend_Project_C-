@@ -23,3 +23,6 @@ C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Data
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\refint\EccomersAPI.Database.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\EccomersAPI.Database.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\ref\EccomersAPI.Database.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\bin\Debug\net8.0\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\bin\Debug\net8.0\EccomersAPI.DataAbstraction.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Database\obj\Debug\net8.0\Eccomers.16F77DE0.Up2Date

@@ -1,4 +1,6 @@
-﻿using EccomersAPI.Repositories.ProductRepository;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.ProductRepository;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.ProductDomain;
 using MediatR;
 using MongoDB.Driver;
@@ -13,11 +15,11 @@ namespace EccomersAPI.BusinessLogics.Products.GetById
     public class GetProductByIdHandler:IRequestHandler<GetProductByIdRequest,GetProductByIdResponse>
     {
         IMongoCollection<Product> productsCollection;
-        ProductRepository result = null;
-        public GetProductByIdHandler(EccomersAPI.Db.DatabaseDomain.Database db, ProductRepository rez)
+        IProductRepository result = null;
+        public GetProductByIdHandler(IDatabase db, IProductRepository rez)
         {
             this.result = rez;
-            this.productsCollection = db.GetCollection<Product>("Products");
+            this.productsCollection = db.GetCollection<Product>();
         }
         public async Task<GetProductByIdResponse> Handle(GetProductByIdRequest request, CancellationToken cancellationToken)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EccomersAPI.DataAbstraction;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EcomersAPI.DataAbstraction
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> where T : IContainsId
     {
          public Task<string> Create(T entity);
          public Task<bool> Update(T entity);

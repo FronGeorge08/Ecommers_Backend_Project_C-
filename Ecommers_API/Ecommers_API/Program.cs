@@ -1,16 +1,27 @@
+using EccomersAPI.DataAbstraction;
+using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.DataAbstraction.Security;
 using EccomersAPI.Database.Database;
 using EccomersAPI.Db.DatabaseDomain;
+using EccomersAPI.Repositories;
 using EccomersAPI.Repositories.Cart;
 using EccomersAPI.Repositories.ProductRepository;
 using EccomersAPI.Repositories.UserRepository;
+using EccomersAPI.Services;
+using EccomersAPI.Services.Security;
+using EcomersAPI.DataAbstraction;
 using Ecommers_API;
+using EcommersAPI.Domain.Cart;
+using EcommersAPI.Domain.ProductDomain;
+using EcommersAPI.Domain.UserDomain;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
+using MediatR.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
+using MongoDB.Driver;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
-
 internal class Program
 {
     private static Assembly[] assemblies;
@@ -53,23 +64,76 @@ internal class Program
 
     private static void Main(string[] args)
     {
+        var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         var builder = WebApplication.CreateBuilder(args);
-        assemblies=RegisterServices();
-        DatabaseSettings settings = builder.Configuration.GetSection("DatabaseSettings").Get<DatabaseSettings>();
-        builder.Services.AddSingleton(settings);
-        builder.Services.AddSingleton<Database>();
-        builder.Services.AddSingleton<ProductRepository>();
-        builder.Services.AddSingleton<UserRepository>();
-        builder.Services.AddSingleton<CartRepository>();
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy(name: MyAllowSpecificOrigins,
+                              policy =>
+                              {
+                                  policy.AllowAnyHeader();
+                                  policy.AllowAnyMethod();
+                                  policy.AllowAnyHeader();
+                                  policy.AllowAnyOrigin();
+                              });
+        });
+
+        assemblies = RegisterServices();
         builder.Services.AddControllers();
+        builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericCrudRepository<>));
+        builder.Services.AddScoped<IHashingService, HashingService>();
+        builder.Services.AddScoped<IProductRepository, ProductRepository>();
+        builder.Services.AddScoped<ICartRepository, CartRepository>();
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<IContextProvider, ContextProvider>();
+        builder.Services.AddScoped<IDatabase, Database>();
+        builder.Services.AddAutoMapper(assemblies);
+        builder.Services.AddScoped<IAuthSettings, AuthSettings>(sp =>
+        {
+            var config=sp.GetRequiredService<IConfiguration>();
+            AuthSettings authSettings=new AuthSettings();   
+            config.GetSection("AuthSettings").Bind(authSettings);
+            return authSettings;
+        });
+        builder.Services.AddScoped<IAuthService, AuthService>();
+        builder.Services.AddScoped<IEmailService, EmailService>();
+        builder.Services.AddScoped<IDatabaseSettings,DatabaseSettings>(sp =>
+        {
+            var config = sp.GetRequiredService<IConfiguration>();
+            DatabaseSettings databaseSettings=new DatabaseSettings();
+            config.GetSection("DatabaseSettings").Bind(databaseSettings);
+            return databaseSettings;
+        });
+        
+        builder.Services.AddScoped<IEmailConfig, EmailConfig>(sp =>
+        {
+            var config=sp.GetRequiredService<IConfiguration>();
+            EmailConfig emailConfig = new EmailConfig();
+            config.GetSection("EmailConfig").Bind(emailConfig);
+            return emailConfig;
+        });
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
+        
+        builder.Services.AddMediatR(cfg =>
+        {
+            cfg.RegisterServicesFromAssemblies(assemblies);
+            cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+            cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(RequestPreProcessorBehavior<,>));
+            cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(RequestPostProcessorBehavior<,>));
+        });
+        builder.Services.Scan(scan => scan
+        .FromAssemblies(assemblies)
+        .AddClasses(classes => classes.AssignableTo(typeof(IRequestPreProcessor<>)))
+    .   AsImplementedInterfaces()
+        .WithTransientLifetime());
         builder.Services.AddValidatorsFromAssemblies(assemblies);
-        builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        
         
         var app = builder.Build();
+        app.UseCors(MyAllowSpecificOrigins);
         app.UseMiddleware<GlobalExceptionMiddleware>();
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())

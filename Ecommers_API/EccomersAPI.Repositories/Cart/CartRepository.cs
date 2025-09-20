@@ -1,6 +1,8 @@
-﻿using EcomersAPI.DataAbstraction;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
 using EcommersAPI.Domain.ProductDomain;
+using EcommersAPI.Domain.UserDomain;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -10,14 +12,14 @@ using System.Threading.Tasks;
 
 namespace EccomersAPI.Repositories.Cart
 {
-    public class CartRepository : IRepository<ShoppingCart>
+    public class CartRepository : GenericCrudRepository<ShoppingCart>, ICartRepository
     {
-        EccomersAPI.Db.DatabaseDomain.Database db = null;
+        IDatabase db;
         IMongoCollection<ShoppingCart> CartCollection;
-        public CartRepository(EccomersAPI.Db.DatabaseDomain.Database database)
+        public CartRepository(IDatabase data):base(data) 
         {
-            this.db = database;
-            this.CartCollection = db.GetCollection<ShoppingCart>("ShoppingCarts");
+            this.db = data;
+            this.CartCollection = data.GetCollection<ShoppingCart>();
         }
         public async Task<string> Create(ShoppingCart entity)
         {
@@ -38,7 +40,6 @@ namespace EccomersAPI.Repositories.Cart
             var response = await this.CartCollection.Find(filtre).ToListAsync();
             return response;
         }
-
         public async Task<ShoppingCart> GetById(string Id)
         {
             var filtre = Builders<ShoppingCart>.Filter.Eq(x => x.Id, Id);

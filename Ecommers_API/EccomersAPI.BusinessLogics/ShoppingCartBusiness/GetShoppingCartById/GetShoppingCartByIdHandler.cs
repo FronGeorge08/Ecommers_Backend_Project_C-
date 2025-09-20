@@ -1,5 +1,8 @@
-﻿using EccomersAPI.Repositories.Cart;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.Cart;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
+using EcommersAPI.Domain.UserDomain;
 using MediatR;
 using MongoDB.Driver;
 using System;
@@ -13,11 +16,11 @@ namespace EccomersAPI.BusinessLogics.ShoppingCartBusiness.GetShoppingCartById
     public class GetShoppingCartByIdHandler:IRequestHandler<GetShoppingCartByIdRequest,GetShoppingCartByIdResponse>
     {
         IMongoCollection<ShoppingCart> ShoppingCartCollection;
-        CartRepository repository = null;
-        public GetShoppingCartByIdHandler(EccomersAPI.Db.DatabaseDomain.Database db, CartRepository rez)
+        ICartRepository repository = null;
+        public GetShoppingCartByIdHandler(IDatabase db, ICartRepository rez)
         {
             this.repository = rez;
-            this.ShoppingCartCollection = db.GetCollection<ShoppingCart>("ShoppingCarts");
+            this.ShoppingCartCollection = db.GetCollection<ShoppingCart>();
         }
 
         public async Task<GetShoppingCartByIdResponse> Handle(GetShoppingCartByIdRequest request, CancellationToken cancellationToken)

@@ -37,3 +37,5 @@ C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Doma
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Domain\bin\Debug\net8.0\EccomersAPI.Database.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Domain\obj\Debug\net8.0\Ecommers.2D7A2948.Up2Date
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Domain\obj\Debug\net8.0\ref\EcommersAPI.Domain.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Domain\bin\Debug\net8.0\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EcommersAPI.Domain\bin\Debug\net8.0\EccomersAPI.DataAbstraction.pdb

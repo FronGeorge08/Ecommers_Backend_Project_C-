@@ -9,5 +9,9 @@ namespace EccomersAPI.BusinessLogics.Users.Register
     public class RegisterUserResponse
     {
         public string Id { get; set; }
+        public RegisterUserResponse(string id)
+        {
+            this.Id = id;
+        }
     }
 }

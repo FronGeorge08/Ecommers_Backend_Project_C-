@@ -192,8 +192,21 @@
           }
         }
       },
+      "EccomersAPI.DataAbstraction/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2",
+          "MongoDB.Driver": "3.4.2"
+        },
+        "runtime": {
+          "EccomersAPI.DataAbstraction.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "EccomersAPI.Database/1.0.0": {
         "dependencies": {
+          "EccomersAPI.DataAbstraction": "1.0.0",
           "MongoDB.Driver": "3.4.2"
         },
         "runtime": {
@@ -343,6 +356,11 @@
       "sha512": ""
     },
     "EccomersAPI.CommonDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EccomersAPI.DataAbstraction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

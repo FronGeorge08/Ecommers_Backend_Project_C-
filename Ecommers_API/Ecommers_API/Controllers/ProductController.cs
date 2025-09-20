@@ -5,8 +5,10 @@ using EccomersAPI.BusinessLogics.Products.Register;
 using EccomersAPI.BusinessLogics.Products.Update;
 using EccomersAPI.BusinessLogics.ProductsBusiness.GetProductById;
 using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
+using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.Db.DatabaseDomain;
 using EccomersAPI.Repositories.ProductRepository;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.ProductDomain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -19,14 +21,10 @@ namespace Ecommers_API.Controllers
     [Route("[controller]")]
     public class ProductController: ControllerBase
     {
-        IMongoCollection<Product> productsCollection;
-        ProductRepository result = null;
         IMediator mediator;
-        public ProductController(Database db,ProductRepository rez,IMediator med)
+        public ProductController(IMediator med)
         {
             this.mediator = med;
-            this.result= rez;
-            this.productsCollection=db.GetCollection<Product>("Products");
         }
 
         [HttpPost("CreateProduct")]

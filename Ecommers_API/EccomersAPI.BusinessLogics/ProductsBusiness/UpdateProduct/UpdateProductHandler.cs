@@ -1,4 +1,7 @@
-﻿using EccomersAPI.Repositories.ProductRepository;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.ProductRepository;
+using EcomersAPI.DataAbstraction;
+using EcommersAPI.Domain.Cart;
 using EcommersAPI.Domain.ProductDomain;
 using MediatR;
 using MongoDB.Driver;
@@ -13,11 +16,11 @@ namespace EccomersAPI.BusinessLogics.Products.Update
     public class UpdateProductHandler : IRequestHandler<UpdateProductRequest, UpdateProductResponse>
     {
         IMongoCollection<Product> productsCollection;
-        ProductRepository result = null;
-        public UpdateProductHandler(EccomersAPI.Db.DatabaseDomain.Database db, ProductRepository rez)
+        IProductRepository result = null;
+        public UpdateProductHandler(IDatabase db, IProductRepository rez)
         {
             this.result = rez;
-            this.productsCollection = db.GetCollection<Product>("Products");
+            this.productsCollection = db.GetCollection<Product>();
         }
         public async Task<UpdateProductResponse> Handle(UpdateProductRequest request, CancellationToken cancellationToken)
         {

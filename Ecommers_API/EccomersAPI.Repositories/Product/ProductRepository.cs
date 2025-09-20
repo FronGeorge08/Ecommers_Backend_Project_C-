@@ -1,4 +1,5 @@
-﻿using EccomersAPI.Db.DatabaseDomain;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Db.DatabaseDomain;
 using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.ProductDomain;
 using EcommersAPI.Domain.UserDomain;
@@ -11,14 +12,14 @@ using System.Threading.Tasks;
 
 namespace EccomersAPI.Repositories.ProductRepository
 {
-    public class ProductRepository : IRepository<Product>
+    public class ProductRepository :GenericCrudRepository<Product>,IProductRepository
     {
-        EccomersAPI.Db.DatabaseDomain.Database db = null;
+        IDatabase db;
         IMongoCollection<Product> productCollection;
-        public ProductRepository(EccomersAPI.Db.DatabaseDomain.Database database)
+        public ProductRepository(IDatabase database):base(database) 
         {
             this.db = database;
-            this.productCollection = db.GetCollection<Product>("Products");
+            this.productCollection =database.GetCollection<Product>();
         }
         public async Task<string> Create(Product entity)
         {
@@ -39,6 +40,7 @@ namespace EccomersAPI.Repositories.ProductRepository
             var response=await this.productCollection.Find(filtre).ToListAsync();
             return response;
         }
+
         public async Task<Product> GetById(string Id)
         {
             var filtre=Builders<Product>.Filter.Eq(x=>x.Id, Id);

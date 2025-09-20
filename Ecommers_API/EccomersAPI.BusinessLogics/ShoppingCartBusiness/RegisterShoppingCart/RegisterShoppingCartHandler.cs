@@ -1,4 +1,7 @@
-﻿using EccomersAPI.Repositories.Cart;
+﻿using AutoMapper;
+using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.Cart;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
 using MediatR;
 using MongoDB.Driver;
@@ -12,18 +15,16 @@ namespace EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart
 {
     public class RegisterShoppingCartHandler : IRequestHandler<RegisterShoppingCartRequest, RegisterShoppingCartResponse>
     {
-        IMongoCollection<ShoppingCart> ShoppingCartCollection;
-        CartRepository repository = null;
-        public RegisterShoppingCartHandler(EccomersAPI.Db.DatabaseDomain.Database db, CartRepository rez)
+        ICartRepository repository = null;
+        IMapper map { get; set; }
+        public RegisterShoppingCartHandler( ICartRepository rez,IMapper mapper)
         {
             this.repository = rez;
-            this.ShoppingCartCollection = db.GetCollection<ShoppingCart>("ShoppingCarts");
+            this.map=mapper;
         }
         public async Task<RegisterShoppingCartResponse> Handle(RegisterShoppingCartRequest request, CancellationToken cancellationToken)
         {
-            ShoppingCart shop = new ShoppingCart();
-            shop.Items = request.Items;
-            shop.UserId=request.UserId;
+            ShoppingCart shop = this.map.Map<ShoppingCart>(request);
             RegisterShoppingCartResponse response=new RegisterShoppingCartResponse();
             await this.repository.Create(shop);
             response.Id = shop.Id;

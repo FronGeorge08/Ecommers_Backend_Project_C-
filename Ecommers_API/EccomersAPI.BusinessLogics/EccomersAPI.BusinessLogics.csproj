@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="MediatR" Version="13.0.0" />
   </ItemGroup>
@@ -17,6 +18,13 @@
     <ProjectReference Include="..\EccomersAPI.Repositories\EccomersAPI.Repositories.csproj" />
     <ProjectReference Include="..\EcomersAPI.DataAbstraction\EccomersAPI.DataAbstraction.csproj" />
     <ProjectReference Include="..\EcommersAPI.Domain\EcommersAPI.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Generic\DeleteDocument\" />
+    <Folder Include="Generic\GetDocumentById\" />
+    <Folder Include="Generic\GetAllDocuments\" />
+    <Folder Include="Generic\UpdateDocument\" />
   </ItemGroup>
 
 </Project>

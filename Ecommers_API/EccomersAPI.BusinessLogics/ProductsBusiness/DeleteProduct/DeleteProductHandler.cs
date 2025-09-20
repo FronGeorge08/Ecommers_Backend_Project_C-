@@ -1,4 +1,8 @@
-﻿using EccomersAPI.Repositories.ProductRepository;
+﻿using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Repositories.ProductRepository;
+using EcomersAPI.DataAbstraction;
+using EcommersAPI.Domain.Cart;
+using EcommersAPI.Domain.ProductDomain;
 using MediatR;
 using MongoDB.Driver;
 using System;
@@ -6,17 +10,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EcommersAPI.Domain.ProductDomain;
 namespace EccomersAPI.BusinessLogics.Products.Delete
 {
     public class DeleteProductHandler : IRequestHandler<DeleteProductRequest, DeleteProductResponse>
     {
         IMongoCollection<Product> productsCollection;
-        ProductRepository result = null;
-        public DeleteProductHandler(EccomersAPI.Db.DatabaseDomain.Database db, ProductRepository rez)
+        IProductRepository result = null;
+        public DeleteProductHandler(IDatabase db, IProductRepository rez)
         {
             this.result = rez;
-            this.productsCollection = db.GetCollection<Product>("Products");
+            this.productsCollection = db.GetCollection<Product>();
         }
         public async Task<DeleteProductResponse> Handle(DeleteProductRequest request, CancellationToken cancellationToken)
         {

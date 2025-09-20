@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
@@ -14,14 +15,18 @@
     <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="13.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="3.4.2" />
     <PackageReference Include="MongoDB.Driver.Core" Version="2.30.0" />
+    <PackageReference Include="Scrutor" Version="6.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BaseDomain\BaseDomain.csproj" />
     <ProjectReference Include="..\EccomersAPI.BusinessLogics\EccomersAPI.BusinessLogics.csproj" />
     <ProjectReference Include="..\EccomersAPI.CommonDomain\EccomersAPI.CommonDomain.csproj" />
     <ProjectReference Include="..\EccomersAPI.Database\EccomersAPI.Database.csproj" />
     <ProjectReference Include="..\EccomersAPI.Repositories\EccomersAPI.Repositories.csproj" />
+    <ProjectReference Include="..\EccomersAPI.Services\EccomersAPI.Services.csproj" />
+    <ProjectReference Include="..\EcomersAPI.DataAbstraction\EccomersAPI.DataAbstraction.csproj" />
     <ProjectReference Include="..\EcommersAPI.Domain\EcommersAPI.Domain.csproj" />
   </ItemGroup>
 

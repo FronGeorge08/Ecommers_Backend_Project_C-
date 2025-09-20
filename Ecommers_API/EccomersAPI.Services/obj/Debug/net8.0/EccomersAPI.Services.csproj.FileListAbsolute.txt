@@ -1,0 +1,16 @@
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\bin\Debug\net8.0\EccomersAPI.Services.deps.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\bin\Debug\net8.0\EccomersAPI.Services.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\bin\Debug\net8.0\EccomersAPI.Services.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\bin\Debug\net8.0\EccomersAPI.DataAbstraction.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\bin\Debug\net8.0\EccomersAPI.DataAbstraction.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.csproj.AssemblyReference.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.AssemblyInfoInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.AssemblyInfo.cs
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.csproj.CoreCompileInputs.cache
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.sourcelink.json
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\Eccomers.84A69F74.Up2Date
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\refint\EccomersAPI.Services.dll
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\EccomersAPI.Services.pdb
+C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Services\obj\Debug\net8.0\ref\EccomersAPI.Services.dll

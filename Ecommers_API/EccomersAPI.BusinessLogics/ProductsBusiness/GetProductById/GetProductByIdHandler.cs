@@ -1,14 +1,7 @@
 ﻿using EccomersAPI.DataAbstraction.Database;
-using EccomersAPI.Repositories.ProductRepository;
-using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.ProductDomain;
 using MediatR;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EccomersAPI.BusinessLogics.Products.GetById
 {

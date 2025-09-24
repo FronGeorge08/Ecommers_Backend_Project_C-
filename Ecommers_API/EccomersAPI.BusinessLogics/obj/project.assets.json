@@ -574,21 +574,6 @@
           "bin/placeholder/EccomersAPI.Database.dll": {}
         }
       },
-      "EccomersAPI.Repositories/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "EccomersAPI.DataAbstraction": "1.0.0",
-          "EccomersAPI.Database": "1.0.0",
-          "EcommersAPI.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/EccomersAPI.Repositories.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EccomersAPI.Repositories.dll": {}
-        }
-      },
       "EcommersAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1503,11 +1488,6 @@
       "path": "../EccomersAPI.Database/EccomersAPI.Database.csproj",
       "msbuildProject": "../EccomersAPI.Database/EccomersAPI.Database.csproj"
     },
-    "EccomersAPI.Repositories/1.0.0": {
-      "type": "project",
-      "path": "../EccomersAPI.Repositories/EccomersAPI.Repositories.csproj",
-      "msbuildProject": "../EccomersAPI.Repositories/EccomersAPI.Repositories.csproj"
-    },
     "EcommersAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../EcommersAPI.Domain/EcommersAPI.Domain.csproj",
@@ -1519,8 +1499,6 @@
       "AutoMapper >= 13.0.1",
       "BaseDomain >= 1.0.0",
       "EccomersAPI.DataAbstraction >= 1.0.0",
-      "EccomersAPI.Database >= 1.0.0",
-      "EccomersAPI.Repositories >= 1.0.0",
       "EcommersAPI.Domain >= 1.0.0",
       "FluentValidation >= 12.0.0",
       "MediatR >= 13.0.0"
@@ -1561,12 +1539,6 @@
           "projectReferences": {
             "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
               "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
-            },
-            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj"
-            },
-            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj"
             },
             "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj": {
               "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj"

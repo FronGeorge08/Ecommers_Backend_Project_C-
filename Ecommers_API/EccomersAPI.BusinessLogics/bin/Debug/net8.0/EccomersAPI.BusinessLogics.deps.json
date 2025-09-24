@@ -11,8 +11,6 @@
           "AutoMapper": "13.0.1",
           "BaseDomain": "1.0.0",
           "EccomersAPI.DataAbstraction": "1.0.0",
-          "EccomersAPI.Database": "1.0.0",
-          "EccomersAPI.Repositories": "1.0.0",
           "EcommersAPI.Domain": "1.0.0",
           "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"
@@ -356,19 +354,6 @@
           }
         }
       },
-      "EccomersAPI.Repositories/1.0.0": {
-        "dependencies": {
-          "EccomersAPI.DataAbstraction": "1.0.0",
-          "EccomersAPI.Database": "1.0.0",
-          "EcommersAPI.Domain": "1.0.0"
-        },
-        "runtime": {
-          "EccomersAPI.Repositories.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "EcommersAPI.Domain/1.0.0": {
         "dependencies": {
           "BaseDomain": "1.0.0",
@@ -625,11 +610,6 @@
       "sha512": ""
     },
     "EccomersAPI.Database/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "EccomersAPI.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

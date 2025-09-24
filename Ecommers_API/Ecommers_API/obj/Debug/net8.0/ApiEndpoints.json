@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "EccomersAPI.BusinessLogics.Products.Register.RegisterProductRequest",
+        "Type": "EccomersAPI.BusinessLogics.Generic.CreateDocument.CreateDocumentRequest\u00602[[EccomersAPI.CommonDomain.Products.CreateProductDTO, EccomersAPI.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[EcommersAPI.Domain.ProductDomain.Product, EcommersAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
@@ -237,7 +237,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "EccomersAPI.CommonDomain.Users.RegisterUserRequest",
+        "Type": "EccomersAPI.BusinessLogics.Generic.CreateDocument.CreateDocumentRequest\u00602[[EccomersAPI.CommonDomain.Users.CreateUserDTO, EccomersAPI.CommonDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[EcommersAPI.Domain.UserDomain.User, EcommersAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
@@ -262,9 +262,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "EccomersAPI.BusinessLogics.Users.Delete.DeleteUserRequest",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

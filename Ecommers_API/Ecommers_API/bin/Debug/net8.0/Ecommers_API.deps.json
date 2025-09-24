@@ -452,8 +452,6 @@
           "AutoMapper": "13.0.1",
           "BaseDomain": "1.0.0",
           "EccomersAPI.DataAbstraction": "1.0.0",
-          "EccomersAPI.Database": "1.0.0",
-          "EccomersAPI.Repositories": "1.0.0",
           "EcommersAPI.Domain": "1.0.0",
           "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"

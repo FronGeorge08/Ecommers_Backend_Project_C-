@@ -39,11 +39,9 @@ C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.Busi
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.CommonDomain.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.DataAbstraction.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.Database.dll
-C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.Repositories.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EcommersAPI.Domain.dll
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\BaseDomain.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.Database.pdb
-C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.Repositories.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EcommersAPI.Domain.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.CommonDomain.pdb
 C:\Users\frong\Desktop\Ecommers_Backend_Project_C-\Ecommers_API\EccomersAPI.BusinessLogics\bin\Debug\net8.0\EccomersAPI.DataAbstraction.pdb

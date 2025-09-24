@@ -10,9 +10,4 @@
     <ProjectReference Include="..\BaseDomain\BaseDomain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Products\" />
-    <Folder Include="Users\" />
-  </ItemGroup>
-
 </Project>

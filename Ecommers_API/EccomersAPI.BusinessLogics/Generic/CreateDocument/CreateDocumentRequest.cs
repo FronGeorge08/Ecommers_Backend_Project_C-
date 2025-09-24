@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EccomersAPI.DataAbstraction;
+using MediatR;
+using System.Text.Json.Serialization;
 
 namespace EccomersAPI.BusinessLogics.Generic.CreateDocument
 {
-    internal class CreateDocumentRequest
+    public class CreateDocumentRequest<TRequestDataDTO, TEntityToSave> : IRequest<CreateDocumentResponse>
+    where TRequestDataDTO : class
+    where TEntityToSave:class,IContainsId
     {
+        public TRequestDataDTO Request { get; set; }
+        [JsonIgnore]
+        public Action<TEntityToSave> ? OnBeforeInsert { get; set; }
     }
 }

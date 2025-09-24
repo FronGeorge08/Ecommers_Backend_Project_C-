@@ -3,64 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommersapi.domain\\cart\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|solutionrelative:ecommersapi.domain\\cart\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1EB4962-20A0-42C8-8602-A14F6AA7412E}|EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecomersapi.dataabstraction\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB4962-20A0-42C8-8602-A14F6AA7412E}|EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj|solutionrelative:ecomersapi.dataabstraction\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\shoppingcartbusiness\\registershoppingcart\\registershoppingcarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\shoppingcartbusiness\\registershoppingcart\\registershoppingcarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\mapping\\businesslogicmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\mapping\\businesslogicmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\productsbusiness\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\productsbusiness\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.commondomain\\products\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|solutionrelative:eccomersapi.commondomain\\products\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\deletedocument\\deletedocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E926FC27-C939-4B22-B5A8-F07E867C84DC}|EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.repositories\\genericcrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E926FC27-C939-4B22-B5A8-F07E867C84DC}|EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj|solutionrelative:eccomersapi.repositories\\genericcrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB4962-20A0-42C8-8602-A14F6AA7412E}|EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecomersapi.dataabstraction\\igenericcrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB4962-20A0-42C8-8602-A14F6AA7412E}|EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj|solutionrelative:ecomersapi.dataabstraction\\igenericcrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\mapping\\businesslogicmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\mapping\\businesslogicmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\createdocument\\createdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\createdocument\\createdocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.commondomain\\products\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|solutionrelative:eccomersapi.commondomain\\products\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.commondomain\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|solutionrelative:eccomersapi.commondomain\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.commondomain\\users\\getuserbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B1AE42-0B44-4A60-8AD2-BD543D051A10}|EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj|solutionrelative:eccomersapi.commondomain\\users\\getuserbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\generic\\getdocumentbyid\\getdocumentbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommersapi.domain\\userdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|solutionrelative:ecommersapi.domain\\userdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommersapi.domain\\cart\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|solutionrelative:ecommersapi.domain\\cart\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommers_api\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE04A09C-561B-4FFF-BDA7-07690BE6EF1B}|Ecommers_API\\Ecommers_API.csproj|solutionrelative:ecommers_api\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\usersbusiness\\loginuser\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\usersbusiness\\loginuser\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\usersbusiness\\getuserbyid\\getuserbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\usersbusiness\\getuserbyid\\getuserbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\usersbusiness\\getuserbyid\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\usersbusiness\\getuserbyid\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\eccomersapi.businesslogics\\usersbusiness\\factory\\usermodifierfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AA4C86-CDD3-4D99-92BF-97DF479A5785}|EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj|solutionrelative:eccomersapi.businesslogics\\usersbusiness\\factory\\usermodifierfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|c:\\users\\frong\\desktop\\ecommers_backend_project_c-\\ecommers_api\\ecommersapi.domain\\userdomain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEB7704-28BA-41BE-8433-BBF2DCEED068}|EcommersAPI.Domain\\EcommersAPI.Domain.csproj|solutionrelative:ecommersapi.domain\\userdomain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,97 +118,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Ecommers_API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Ecommers_API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-20T16:30:05.394Z",
+              "DocumentIndex": 9,
+              "Title": "GenericCrudRepository.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Repositories\\GenericCrudRepository.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.Repositories\\GenericCrudRepository.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Repositories\\GenericCrudRepository.cs",
+              "RelativeToolTip": "EccomersAPI.Repositories\\GenericCrudRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:47:43.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BusinessLogicMapping.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CreateDocumentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:21:05.044Z",
+              "WhenOpened": "2025-09-24T19:46:03.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterShoppingCartHandler.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\ShoppingCartBusiness\\RegisterShoppingCart\\RegisterShoppingCartHandler.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\ShoppingCartBusiness\\RegisterShoppingCart\\RegisterShoppingCartHandler.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\ShoppingCartBusiness\\RegisterShoppingCart\\RegisterShoppingCartHandler.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\ShoppingCartBusiness\\RegisterShoppingCart\\RegisterShoppingCartHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CreateDocumentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:20:39.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\IRepository.cs",
-              "RelativeDocumentMoniker": "EcomersAPI.DataAbstraction\\IRepository.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\IRepository.cs",
-              "RelativeToolTip": "EcomersAPI.DataAbstraction\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:18:15.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Program.cs",
-              "RelativeDocumentMoniker": "Ecommers_API\\Program.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Program.cs",
-              "RelativeToolTip": "Ecommers_API\\Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAArwFUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:11:37.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\Cart\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "EcommersAPI.Domain\\Cart\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\Cart\\ShoppingCart.cs",
-              "RelativeToolTip": "EcommersAPI.Domain\\Cart\\ShoppingCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:41:00.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\Cart\\Item.cs",
-              "RelativeDocumentMoniker": "EcommersAPI.Domain\\Cart\\Item.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\Cart\\Item.cs",
-              "RelativeToolTip": "EcommersAPI.Domain\\Cart\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:39:55.03Z",
+              "WhenOpened": "2025-09-24T19:42:09.234Z",
               "EditorCaption": ""
             },
             {
@@ -193,106 +189,314 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateDocumentValidator.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DeleteDocumentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentValidator.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentValidator.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentValidator.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:32:53.694Z",
+              "WhenOpened": "2025-09-24T19:41:39.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateDocumentHandler.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA2wB0AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeleteDocumentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentResponse.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentResponse.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentResponse.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:32:35.866Z",
+              "WhenOpened": "2025-09-24T19:41:24.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateDocumentResponse.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentResponse.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentResponse.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentResponse.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeleteDocumentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentRequest.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentRequest.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentRequest.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:32:23.973Z",
+              "WhenOpened": "2025-09-24T19:41:04.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CreateDocumentRequest.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Title": "DeleteDocumentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentHandler.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentHandler.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentHandler.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\DeleteDocument\\DeleteDocumentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:31:30.01Z",
+              "WhenOpened": "2025-09-24T19:40:54.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetProductByIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\ProductsBusiness\\GetProductById\\GetProductByIdHandler.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\ProductsBusiness\\GetProductById\\GetProductByIdHandler.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\ProductsBusiness\\GetProductById\\GetProductByIdHandler.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\ProductsBusiness\\GetProductById\\GetProductByIdHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Ecommers_API\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Ecommers_API\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:27:13.097Z",
+              "WhenOpened": "2025-09-24T19:30:58.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Products\\CreateProductDTO.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.CommonDomain\\Products\\CreateProductDTO.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Products\\CreateProductDTO.cs",
+              "RelativeToolTip": "EccomersAPI.CommonDomain\\Products\\CreateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:26:55.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetProductByIdDTO.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Products\\GetProductByIdDTO.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.CommonDomain\\Products\\GetProductByIdDTO.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Products\\GetProductByIdDTO.cs",
+              "RelativeToolTip": "EccomersAPI.CommonDomain\\Products\\GetProductByIdDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:26:23.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "GetUserByIdResponse.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdResponse.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdResponse.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdResponse.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Ecommers_API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Ecommers_API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:23:09.878Z",
+              "WhenOpened": "2025-09-24T19:19:49.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "BusinessLogicMapping.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Mapping\\BusinessLogicMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:15:43.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGenericCrudRepository.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\IGenericCrudRepository.cs",
+              "RelativeDocumentMoniker": "EcomersAPI.DataAbstraction\\IGenericCrudRepository.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\IGenericCrudRepository.cs",
+              "RelativeToolTip": "EcomersAPI.DataAbstraction\\IGenericCrudRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:09:24.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Program.cs",
+              "RelativeDocumentMoniker": "Ecommers_API\\Program.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Program.cs",
+              "RelativeToolTip": "Ecommers_API\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGMAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:00:53.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Ecommers_API\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\ValidationBehavior.cs",
+              "RelativeToolTip": "Ecommers_API\\ValidationBehavior.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:54:27.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetUserByIdDTO.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Users\\GetUserByIdDTO.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.CommonDomain\\Users\\GetUserByIdDTO.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Users\\GetUserByIdDTO.cs",
+              "RelativeToolTip": "EccomersAPI.CommonDomain\\Users\\GetUserByIdDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:42:06.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetDocumentByIdValidator.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdValidator.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdValidator.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdValidator.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:41:02.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetDocumentByIdRequest.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdRequest.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdRequest.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdRequest.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:40:37.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetDocumentByIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdResponse.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdResponse.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdResponse.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:40:36.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetDocumentByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdHandler.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdHandler.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdHandler.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\GetDocumentById\\GetDocumentByIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:39:57.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetUserByIdRequest.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdRequest.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdRequest.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdRequest.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\UsersBusiness\\GetUserById\\GetUserByIdRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:37:32.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Users\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.CommonDomain\\Users\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\Users\\CreateUserDTO.cs",
+              "RelativeToolTip": "EccomersAPI.CommonDomain\\Users\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:37:28.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Ecommers_API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\Ecommers_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Ecommers_API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:35:36.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\UserDomain\\User.cs",
               "RelativeDocumentMoniker": "EcommersAPI.Domain\\UserDomain\\User.cs",
               "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\UserDomain\\User.cs",
               "RelativeToolTip": "EcommersAPI.Domain\\UserDomain\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:22:00.545Z",
+              "WhenOpened": "2025-09-24T18:28:54.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\LoginUser\\LoginUserHandler.cs",
-              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\UsersBusiness\\LoginUser\\LoginUserHandler.cs",
-              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\LoginUser\\LoginUserHandler.cs",
-              "RelativeToolTip": "EccomersAPI.BusinessLogics\\UsersBusiness\\LoginUser\\LoginUserHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\UserDomain\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "EcommersAPI.Domain\\UserDomain\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\UserDomain\\IUserRepository.cs",
+              "RelativeToolTip": "EcommersAPI.Domain\\UserDomain\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:18:12.781Z",
+              "WhenOpened": "2025-09-24T18:28:50.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserModifierFactory.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\Factory\\UserModifierFactory.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\UsersBusiness\\Factory\\UserModifierFactory.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\UsersBusiness\\Factory\\UserModifierFactory.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\UsersBusiness\\Factory\\UserModifierFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:27:38.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateDocumentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
+              "RelativeDocumentMoniker": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
+              "ToolTip": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
+              "RelativeToolTip": "EccomersAPI.BusinessLogics\\Generic\\CreateDocument\\CreateDocumentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:27:23.893Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EccomersAPI.BusinessLogics.Products.Register;
 using EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart;
+using EccomersAPI.CommonDomain.Products;
 using EccomersAPI.CommonDomain.Users;
 using EcommersAPI.Domain.Cart;
 using EcommersAPI.Domain.ProductDomain;
@@ -12,7 +13,10 @@ namespace EccomersAPI.BusinessLogics.Mapping
     {
         public BusinessLogicMapping() 
         {
-            this.CreateMap<RegisterUserRequest, User>().ReverseMap();
+            this.CreateMap<CreateProductDTO,Product>().ReverseMap();
+            this.CreateMap<GetProductByIdDTO, Product>().ReverseMap();
+            this.CreateMap<GetUserByIdDTO,User>().ReverseMap();
+            this.CreateMap<CreateUserDTO, User>().ReverseMap();
             this.CreateMap<RegisterProductRequest, Product>().ReverseMap();
             this.CreateMap<RegisterShoppingCartRequest, ShoppingCart>().ReverseMap();
         }

@@ -21,38 +21,5 @@ namespace EccomersAPI.Repositories.Cart
             this.db = data;
             this.CartCollection = data.GetCollection<ShoppingCart>();
         }
-        public async Task<string> Create(ShoppingCart entity)
-        {
-            await this.CartCollection.InsertOneAsync(entity);
-            return entity.Id;
-        }
-
-        public async Task<bool> Delete(string Id)
-        {
-            var filtre = Builders<ShoppingCart>.Filter.Eq(x => x.Id, Id);
-            var response = await this.CartCollection.DeleteOneAsync(filtre);
-            return response.DeletedCount != 0;
-        }
-
-        public async Task<List<ShoppingCart>> GetAll()
-        {
-            var filtre = Builders<ShoppingCart>.Filter.Empty;
-            var response = await this.CartCollection.Find(filtre).ToListAsync();
-            return response;
-        }
-        public async Task<ShoppingCart> GetById(string Id)
-        {
-            var filtre = Builders<ShoppingCart>.Filter.Eq(x => x.Id, Id);
-            var response = await this.CartCollection.Find(filtre).FirstOrDefaultAsync();
-            return response;
-        }
-
-        public async Task<bool> Update(ShoppingCart entity)
-        {
-            var filtre = Builders<ShoppingCart>.Filter.Eq(x => x.Id, entity.Id);
-            var update = Builders<ShoppingCart>.Update.Set(x => x.Id, entity.Id).Set(x => x.UserId, entity.UserId).Set(x => x.Items, entity.Items);
-            var response = await this.CartCollection.UpdateOneAsync(filtre, update);
-            return response.ModifiedCount != 0;
-        }
     }
 }

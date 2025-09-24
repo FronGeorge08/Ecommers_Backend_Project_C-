@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EccomersAPI.DataAbstraction")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60837bce7371d163b8d5210cae564424bead2c7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51e57df34ee4badd64367f2c6eb52a4ff5905762")]
 [assembly: System.Reflection.AssemblyProductAttribute("EccomersAPI.DataAbstraction")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EccomersAPI.DataAbstraction")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

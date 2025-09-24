@@ -1,25 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using EcommersAPI.Domain.UserDomain;
-using MongoDB.Bson;
-using MongoDB.Driver;
-using System.Threading.Tasks;
-using EcommersAPI.Domain.ProductDomain;
-using System.ComponentModel.Design.Serialization;
-using EccomersAPI.Db.DatabaseDomain;
-using EccomersAPI.CommonDomain.Users;
-using EccomersAPI.Repositories.UserRepository;
-using MediatR;
+﻿using EccomersAPI.BusinessLogics.Generic.CreateDocument;
+using EccomersAPI.BusinessLogics.Generic.DeleteDocument;
+using EccomersAPI.BusinessLogics.Generic.GetDocumentById;
 using EccomersAPI.BusinessLogics.Users.Delete;
 using EccomersAPI.BusinessLogics.Users.GetAllUsers;
 using EccomersAPI.BusinessLogics.Users.GetById;
-using EccomersAPI.BusinessLogics.Users.Update;
 using EccomersAPI.BusinessLogics.Users.Register;
-using System.ComponentModel.DataAnnotations;
+using EccomersAPI.BusinessLogics.Users.Update;
+using EccomersAPI.BusinessLogics.UsersBusiness.Factory;
 using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
-using System.Threading;
 using EccomersAPI.BusinessLogics.UsersBusiness.LoginUser;
-using EcomersAPI.DataAbstraction;
+using EccomersAPI.CommonDomain.Users;
 using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Db.DatabaseDomain;
+using EccomersAPI.Repositories.UserRepository;
+using EcomersAPI.DataAbstraction;
+using EcommersAPI.Domain.ProductDomain;
+using EcommersAPI.Domain.UserDomain;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design.Serialization;
+using System.Threading;
+using System.Threading.Tasks;
 namespace Ecommers_API.Controllers
 {
     [ApiController]
@@ -28,14 +32,18 @@ namespace Ecommers_API.Controllers
     {
         
         IMediator mediator;
-        public UserController(IMediator med)
+        UserModifierFactory modifierFactory;
+        public UserController(IMediator med,UserModifierFactory mod)
         {
             this.mediator = med; 
+            this.modifierFactory = mod;
         }
         [HttpPost("CreateUser")]
-        public async Task<string> CreateUser(RegisterUserRequest request)
+        public async Task<string> CreateUser(CreateDocumentRequest<CreateUserDTO, User> request)
         {
-            RegisterUserResponse response = await this.mediator.Send(request);
+            var modifier = await this.modifierFactory.CreateModifier(request.Request.Password);
+            request.OnBeforeInsert = modifier;
+            var response=await this.mediator.Send(request);
             return response.Id;
         }
         [HttpPost ("LoginUser")]
@@ -45,10 +53,11 @@ namespace Ecommers_API.Controllers
             return response.Message;
         }
         [HttpDelete("DeleteUser")]
-        public async Task<bool> DeleteUser(DeleteUserRequest request)
+        public async Task<bool> DeleteUser(string Id)
         {
-            DeleteUserResponse response = await this.mediator.Send(request);
-            return response.result;
+            DeleteDocumentRequest<User> request=new DeleteDocumentRequest<User> {Id = Id};
+            DeleteDocumentResponse response = await this.mediator.Send(request);
+            return response.Response;
         }
         [HttpPut("UpdateUser")]
         public async Task<bool> UpdateUser(UpdateUserRequest request)
@@ -59,21 +68,8 @@ namespace Ecommers_API.Controllers
         [HttpGet("GetUserById/{Id}")]
         public async Task<IActionResult> GetUserbyId(string Id)
         {
-            GetUserByIdRequest request = new GetUserByIdRequest();
-            request.Id = Id;
-            var validator = new GetUserByIdValidator();
-            var validationResult = validator.Validate(request);
-
-            if (validationResult.IsValid == false)
-            {
-                var errorList = validationResult.Errors.Select(e => new
-                {
-                    field = e.PropertyName,
-                    message = e.ErrorMessage
-                });
-                return this.BadRequest(errorList);
-            }
-            GetUserByIdResponse response = await this.mediator.Send(request);
+            GetDocumentByIdRequest<GetUserByIdDTO, User> request = new GetDocumentByIdRequest<GetUserByIdDTO, User>(Id);
+            GetDocumentByIdResponse<GetUserByIdDTO,User> response = await this.mediator.Send(request);
             return this.Ok(response);
         }
         [HttpGet("GetAllUsers")]

@@ -1,10 +1,14 @@
-﻿using EccomersAPI.BusinessLogics.Products.Delete;
+﻿using EccomersAPI.BusinessLogics.Generic.CreateDocument;
+using EccomersAPI.BusinessLogics.Generic.GetDocumentById;
+using EccomersAPI.BusinessLogics.Products.Delete;
 using EccomersAPI.BusinessLogics.Products.GetAllProducts;
 using EccomersAPI.BusinessLogics.Products.GetById;
 using EccomersAPI.BusinessLogics.Products.Register;
 using EccomersAPI.BusinessLogics.Products.Update;
 using EccomersAPI.BusinessLogics.ProductsBusiness.GetProductById;
 using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
+using EccomersAPI.CommonDomain.Products;
+using EccomersAPI.CommonDomain.Users;
 using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.Db.DatabaseDomain;
 using EccomersAPI.Repositories.ProductRepository;
@@ -28,30 +32,17 @@ namespace Ecommers_API.Controllers
         }
 
         [HttpPost("CreateProduct")]
-        public async Task<string> CreateProduct(RegisterProductRequest request)
+        public async Task<string> CreateProduct(CreateDocumentRequest<CreateProductDTO,Product> request)
         {
-            RegisterProductResponse response=await this.mediator.Send(request);
-            return response.ProductId;  
+            CreateDocumentResponse response =await this.mediator.Send(request);
+            return response.Id;  
         }
         [HttpGet("GetProductById/{Id}")]
         public async Task<IActionResult> GetProductById(string Id)
         {
-            GetProductByIdRequest request=new GetProductByIdRequest();
-            request.Id=Id;
-            var validator = new GetProductByIdValidator();
-            var validationResult = validator.Validate(request);
-
-            if (validationResult.IsValid == false)
-            {
-                var errorList = validationResult.Errors.Select(e => new
-                {
-                    field = e.PropertyName,
-                    message = e.ErrorMessage
-                });
-                return this.BadRequest(errorList);
-            }
-            GetProductByIdResponse response = await this.mediator.Send(request);
-            return this.Ok(response.product);
+            GetDocumentByIdRequest<GetProductByIdDTO, Product> request = new GetDocumentByIdRequest<GetProductByIdDTO, Product>(Id);
+            GetDocumentByIdResponse< GetProductByIdDTO, Product > response = await this.mediator.Send(request);
+            return this.Ok(response.entityToReturn);
         }
         [HttpGet("GetAllProducts")]
         public async Task<List<Product>> GetAllProducts()

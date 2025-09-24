@@ -1,17 +1,9 @@
 ﻿using EccomersAPI.DataAbstraction;
 using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.DataAbstraction.Security;
-using EccomersAPI.Repositories.UserRepository;
-using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.UserDomain;
-using FluentValidation;
 using MediatR;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 namespace EccomersAPI.BusinessLogics.UsersBusiness.LoginUser
 {
     public class LoginUserHandler : IRequestHandler<LoginUserRequest, LoginUserResponse>

@@ -1,15 +1,6 @@
 ﻿using AutoMapper;
-using EccomersAPI.DataAbstraction.Database;
-using EccomersAPI.Repositories.Cart;
-using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
 using MediatR;
-using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart
 {

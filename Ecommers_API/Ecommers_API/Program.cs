@@ -1,3 +1,9 @@
+using EccomersAPI.BusinessLogics.Generic.CreateDocument;
+using EccomersAPI.BusinessLogics.Generic.DeleteDocument;
+using EccomersAPI.BusinessLogics.Generic.GetDocumentById;
+using EccomersAPI.BusinessLogics.UsersBusiness.Factory;
+using EccomersAPI.CommonDomain.Products;
+using EccomersAPI.CommonDomain.Users;
 using EccomersAPI.DataAbstraction;
 using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.DataAbstraction.Security;
@@ -80,13 +86,19 @@ internal class Program
 
         assemblies = RegisterServices();
         builder.Services.AddControllers();
-        builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericCrudRepository<>));
+        builder.Services.AddScoped(typeof(IGenericCrudRepository<>), typeof(GenericCrudRepository<>));
         builder.Services.AddScoped<IHashingService, HashingService>();
         builder.Services.AddScoped<IProductRepository, ProductRepository>();
         builder.Services.AddScoped<ICartRepository, CartRepository>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IContextProvider, ContextProvider>();
         builder.Services.AddScoped<IDatabase, Database>();
+        builder.Services.AddScoped<UserModifierFactory>();
+        builder.Services.AddTransient<IRequestHandler<CreateDocumentRequest<CreateUserDTO, User>, CreateDocumentResponse>, CreateDocumentHandler<CreateUserDTO, User>>();
+        builder.Services.AddTransient<IRequestHandler<GetDocumentByIdRequest<GetUserByIdDTO, User>, GetDocumentByIdResponse<GetUserByIdDTO, User>>, GetDocumentByIdHandler<GetUserByIdDTO, User>>();
+        builder.Services.AddTransient<IRequestHandler<CreateDocumentRequest<CreateProductDTO,Product>,CreateDocumentResponse>,CreateDocumentHandler<CreateProductDTO,Product >> ();
+        builder.Services.AddTransient<IRequestHandler<DeleteDocumentRequest<User>, DeleteDocumentResponse>, DeleteDocumentHandler<User>>();
+        builder.Services.AddTransient<IRequestHandler<GetDocumentByIdRequest<GetProductByIdDTO, Product>, GetDocumentByIdResponse<GetProductByIdDTO, Product>>, GetDocumentByIdHandler<GetProductByIdDTO, Product>>();
         builder.Services.AddAutoMapper(assemblies);
         builder.Services.AddScoped<IAuthSettings, AuthSettings>(sp =>
         {

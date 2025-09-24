@@ -14,15 +14,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BaseDomain\BaseDomain.csproj" />
-    <ProjectReference Include="..\EccomersAPI.Database\EccomersAPI.Database.csproj" />
-    <ProjectReference Include="..\EccomersAPI.Repositories\EccomersAPI.Repositories.csproj" />
     <ProjectReference Include="..\EcomersAPI.DataAbstraction\EccomersAPI.DataAbstraction.csproj" />
     <ProjectReference Include="..\EcommersAPI.Domain\EcommersAPI.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Generic\DeleteDocument\" />
-    <Folder Include="Generic\GetDocumentById\" />
     <Folder Include="Generic\GetAllDocuments\" />
     <Folder Include="Generic\UpdateDocument\" />
   </ItemGroup>

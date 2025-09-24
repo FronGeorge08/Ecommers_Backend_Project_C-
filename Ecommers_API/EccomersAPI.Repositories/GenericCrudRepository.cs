@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace EccomersAPI.Repositories
 {
-    public class GenericCrudRepository<T> : IRepository<T>
-        where T :class ,IContainsId 
+    public class GenericCrudRepository<T> : IGenericCrudRepository<T> 
+    where T : class,IContainsId
     {
         IDatabase db;
         IMongoCollection<T> Collection;

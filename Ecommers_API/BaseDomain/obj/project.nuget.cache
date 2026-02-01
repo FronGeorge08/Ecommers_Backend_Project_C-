@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "io6kD27yLV4=",
+  "dgSpecHash": "nmGZoukETPQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
+  "projectFilePath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frong\\.nuget\\packages\\mongodb.bson\\3.4.2\\mongodb.bson.3.4.2.nupkg.sha512",
     "C:\\Users\\frong\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

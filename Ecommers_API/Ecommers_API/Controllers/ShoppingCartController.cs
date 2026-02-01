@@ -1,10 +1,20 @@
 ﻿using BaseDomain.BaseItem;
+using EccomersAPI.BusinessLogics.ShoppingCartBusiness.DeleteShoppingCarts;
+using EccomersAPI.BusinessLogics.ShoppingCartBusiness.GetAllShoppingCarts;
+using EccomersAPI.BusinessLogics.ShoppingCartBusiness.GetShoppingCartById;
+using EccomersAPI.BusinessLogics.ShoppingCartBusiness.RegisterShoppingCart;
+using EccomersAPI.BusinessLogics.ShoppingCartBusiness.UpdateShoppingCart;
+using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
 using EccomersAPI.CommonDomain.Users;
+using EccomersAPI.DataAbstraction.Database;
 using EccomersAPI.Db.DatabaseDomain;
 using EccomersAPI.Repositories.Cart;
 using EccomersAPI.Repositories.UserRepository;
+using EcomersAPI.DataAbstraction;
 using EcommersAPI.Domain.Cart;
+using EcommersAPI.Domain.ProductDomain;
 using EcommersAPI.Domain.UserDomain;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
@@ -14,40 +24,56 @@ namespace Ecommers_API.Controllers
     [Route("[controller]")]
     public class ShoppingCartController: ControllerBase
     {
-        IMongoCollection<ShoppingCart> ShoppingCartCollection;
-        CartRepository repository = null;
-        public ShoppingCartController(Database db, CartRepository rez)
+        
+        IMediator mediator;
+        public ShoppingCartController(IMediator med)
         {
-            this.repository = rez;
-            this.ShoppingCartCollection = db.GetCollection<ShoppingCart>("ShoppingCarts");
+            this.mediator = med;
         }
         [HttpPost("CreateShoppingCart")]
-        public async Task<string> CreateShoppingCart(BaseShoppingCart request)
+        public async Task<string> CreateShoppingCart(RegisterShoppingCartRequest request)
         {
-            ShoppingCart shop = new ShoppingCart(request,0);
-            return await this.repository.Create(shop);
+            RegisterShoppingCartResponse response=await this.mediator.Send(request);
+            return response.Id;
         }
         [HttpDelete("DeleteShoppingCart")]
-        public async Task<bool> DeleteShoppingCart(string Id)
+        public async Task<bool> DeleteShoppingCart(DeleteShoppingCartsRequest request)
         {
-            return await this.repository.Delete(Id);
+            DeleteShoppingCartsResponse response = await this.mediator.Send(request);
+            return response.result;
         }
         [HttpPut("UpdateShoppingCart")]
-        public async Task<bool> UpdateShoppingCart(string Id, BaseShoppingCart shoppingCart)
+        public async Task<bool> UpdateShoppingCart(UpdateShoppingCartRequest request)
         {
-            ShoppingCart Shop = new ShoppingCart();
-            Shop.Id = Id;
-            return await this.repository.Update(Shop);
+            UpdateShoppingCartResponse response = await this.mediator.Send(request);
+            return response.result;
         }
-        [HttpGet("GetShoppingCartById")]
-        public async Task<ShoppingCart> GetShoppingCartbyId(string Id)
+        [HttpGet("GetShoppingCartById/{Id}")]
+        public async Task<IActionResult> GetShoppingCartbyId(string Id)
         {
-            return await this.repository.GetById(Id);
+            GetShoppingCartByIdRequest request=new GetShoppingCartByIdRequest();
+            request.Id=Id;
+            var validator = new GetShoppingCartByIdValidator();
+            var validationResult = validator.Validate(request);
+
+            if (validationResult.IsValid == false)
+            {
+                var errorList = validationResult.Errors.Select(e => new
+                {
+                    field = e.PropertyName,
+                    message = e.ErrorMessage
+                });
+                return this.BadRequest(errorList);
+            }
+            GetShoppingCartByIdResponse response= await this.mediator.Send(request);    
+            return this.Ok(response.ShoppingCart);
         }
         [HttpGet("GetAllShoppingCarts")]
         public async Task<List<ShoppingCart>> GetAllShoppingCarts()
         {
-            return await this.repository.GetAll();
+            GetAllShoppingCartsRequest request=new GetAllShoppingCartsRequest();
+            GetAllShoppingCartsResponse response= await this.mediator.Send(request);
+            return response.shoppingCarts;
         }
     }
 }

@@ -209,6 +209,20 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
+      },
+      "EccomersAPI.DataAbstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2",
+          "MongoDB.Driver": "3.4.2"
+        },
+        "compile": {
+          "bin/placeholder/EccomersAPI.DataAbstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EccomersAPI.DataAbstraction.dll": {}
+        }
       }
     }
   },
@@ -591,10 +605,16 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "EccomersAPI.DataAbstraction/1.0.0": {
+      "type": "project",
+      "path": "../EcomersAPI.DataAbstraction/EccomersAPI.DataAbstraction.csproj",
+      "msbuildProject": "../EcomersAPI.DataAbstraction/EccomersAPI.DataAbstraction.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EccomersAPI.DataAbstraction >= 1.0.0",
       "MongoDB.Driver >= 3.4.2"
     ]
   },
@@ -605,11 +625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
+      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
       "projectName": "EccomersAPI.Database",
-      "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
+      "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj",
       "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\obj\\",
+      "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -630,7 +650,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -43,6 +59,19 @@
         },
         "runtime": {
           "lib/net5.0/DnsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -520,6 +549,10 @@
       "EccomersAPI.DataAbstraction/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2",
+          "MongoDB.Driver": "3.4.2"
+        },
         "compile": {
           "bin/placeholder/EccomersAPI.DataAbstraction.dll": {}
         },
@@ -531,6 +564,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EccomersAPI.DataAbstraction": "1.0.0",
           "MongoDB.Driver": "3.4.2"
         },
         "compile": {
@@ -538,21 +572,6 @@
         },
         "runtime": {
           "bin/placeholder/EccomersAPI.Database.dll": {}
-        }
-      },
-      "EccomersAPI.Repositories/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "EccomersAPI.DataAbstraction": "1.0.0",
-          "EccomersAPI.Database": "1.0.0",
-          "EcommersAPI.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/EccomersAPI.Repositories.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EccomersAPI.Repositories.dll": {}
         }
       },
       "EcommersAPI.Domain/1.0.0": {
@@ -575,6 +594,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "AWSSDK.Core/3.7.100.14": {
       "sha512": "gnEgxBlk4PFEfdPE8Lkf4+D16MZFYSaW7/o6Wwe5e035QWUkTJX0Dn4LfTCdV5QSEL/fOFxu+yCAm55eIIBgog==",
       "type": "package",
@@ -649,6 +683,21 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
     "MediatR/13.0.0": {
@@ -1439,11 +1488,6 @@
       "path": "../EccomersAPI.Database/EccomersAPI.Database.csproj",
       "msbuildProject": "../EccomersAPI.Database/EccomersAPI.Database.csproj"
     },
-    "EccomersAPI.Repositories/1.0.0": {
-      "type": "project",
-      "path": "../EccomersAPI.Repositories/EccomersAPI.Repositories.csproj",
-      "msbuildProject": "../EccomersAPI.Repositories/EccomersAPI.Repositories.csproj"
-    },
     "EcommersAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../EcommersAPI.Domain/EcommersAPI.Domain.csproj",
@@ -1452,10 +1496,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "BaseDomain >= 1.0.0",
-      "EccomersAPI.Database >= 1.0.0",
-      "EccomersAPI.Repositories >= 1.0.0",
+      "EccomersAPI.DataAbstraction >= 1.0.0",
       "EcommersAPI.Domain >= 1.0.0",
+      "FluentValidation >= 12.0.0",
       "MediatR >= 13.0.0"
     ]
   },
@@ -1466,11 +1511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj",
+      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj",
       "projectName": "EccomersAPI.BusinessLogics",
-      "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj",
+      "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\EccomersAPI.BusinessLogics.csproj",
       "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.BusinessLogics\\obj\\",
+      "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.BusinessLogics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1492,17 +1537,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
             },
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcomersAPI.DataAbstraction\\EccomersAPI.DataAbstraction.csproj"
             },
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Repositories\\EccomersAPI.Repositories.csproj"
-            },
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj"
             }
           }
         }
@@ -1523,6 +1565,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[13.0.0, )"

@@ -1,4 +1,5 @@
 ﻿using BaseDomain.BaseItem;
+using EccomersAPI.DataAbstraction;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EcommersAPI.Domain.Cart
 {
-    public class ShoppingCart:BaseShoppingCart
+    public class ShoppingCart:BaseShoppingCart,IContainsId
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

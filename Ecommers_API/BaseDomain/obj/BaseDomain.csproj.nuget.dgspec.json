@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {}
+    "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
+    "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
+        "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
         "projectName": "BaseDomain",
-        "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
+        "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj",
         "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\obj\\",
+        "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,12 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using EcommersAPI.Domain.ProductDomain;
-using EcommersAPI.Domain.UserDomain;
-using MongoDB.Driver;
-using EccomersAPI.Db.DatabaseDomain;
+﻿using EccomersAPI.BusinessLogics.Generic.CreateDocument;
+using EccomersAPI.BusinessLogics.Generic.GetDocumentById;
+using EccomersAPI.BusinessLogics.Products.Delete;
+using EccomersAPI.BusinessLogics.Products.GetAllProducts;
+using EccomersAPI.BusinessLogics.Products.GetById;
+using EccomersAPI.BusinessLogics.Products.Register;
+using EccomersAPI.BusinessLogics.Products.Update;
+using EccomersAPI.BusinessLogics.ProductsBusiness.GetProductById;
+using EccomersAPI.BusinessLogics.UsersBusiness.GetUserById;
 using EccomersAPI.CommonDomain.Products;
-using EccomersAPI.Repositories.UserRepository;
+using EccomersAPI.CommonDomain.Users;
+using EccomersAPI.DataAbstraction.Database;
+using EccomersAPI.Db.DatabaseDomain;
 using EccomersAPI.Repositories.ProductRepository;
+using EcomersAPI.DataAbstraction;
+using EcommersAPI.Domain.ProductDomain;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson.Serialization.IdGenerators;
+using MongoDB.Driver;
 namespace Ecommers_API.Controllers
 
 {
@@ -14,41 +25,43 @@ namespace Ecommers_API.Controllers
     [Route("[controller]")]
     public class ProductController: ControllerBase
     {
-        IMongoCollection<Product> productsCollection;
-        ProductRepository result = null;
-        public ProductController(Database db,ProductRepository rez)
+        IMediator mediator;
+        public ProductController(IMediator med)
         {
-            this.result= rez;
-            this.productsCollection=db.GetCollection<Product>("Products");
+            this.mediator = med;
         }
 
         [HttpPost("CreateProduct")]
-        public async Task<string> CreateProduct(CreateProductRequestDTO request)
+        public async Task<string> CreateProduct(CreateDocumentRequest<CreateProductDTO,Product> request)
         {
-            Product product = new Product(request);
-            return await this.result.Create(product);
+            CreateDocumentResponse response =await this.mediator.Send(request);
+            return response.Id;  
         }
-        [HttpGet("GetProductById")]
-        public async Task<Product> Get_Product_By_Id(string Id)
+        [HttpGet("GetProductById/{Id}")]
+        public async Task<IActionResult> GetProductById(string Id)
         {
-            return await this.result.GetById(Id);
+            GetDocumentByIdRequest<GetProductByIdDTO, Product> request = new GetDocumentByIdRequest<GetProductByIdDTO, Product>(Id);
+            GetDocumentByIdResponse< GetProductByIdDTO, Product > response = await this.mediator.Send(request);
+            return this.Ok(response.entityToReturn);
         }
         [HttpGet("GetAllProducts")]
-        public async Task<List<Product>> Get_All_Products()
-        {  
-            return await this.result.GetAll();   
+        public async Task<List<Product>> GetAllProducts()
+        {
+            GetAllProductsRequest request=new GetAllProductsRequest();
+            GetAllProductsResponse response=await this.mediator.Send(request);
+            return response.products;
         }
         [HttpPut("UpdateProduct")]
-        public async Task<bool> Update_Product(string Id,UpdateProductRequestDTO request)
+        public async Task<bool> UpdateProduct(UpdateProductRequest request)
         {
-            Product product=new Product(request);
-            product.Id = Id;
-            return await this.result.Update(product);
+            UpdateProductResponse response= await this.mediator.Send(request);
+            return response.result;
         }
         [HttpDelete("DeleteProduct")]
-        public async Task<bool> Delete_Product(string Id)
+        public async Task<bool> DeleteProduct(DeleteProductRequest request)
         {
-            return await this.result.Delete(Id);
+            DeleteProductResponse response=await this.mediator.Send(request);
+            return response.response;
         }
     }
 }

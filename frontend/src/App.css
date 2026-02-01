@@ -1,0 +1,214 @@
+#pageContainer {
+font-family: Arial, sans-serif;
+background-color: #f3f4f6;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+#card {
+background: white;
+padding: 2rem;
+border-radius: 1rem;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+width: 100%;
+max-width: 400px;
+}
+#formTitle {
+text-align: center;
+margin-bottom: 1.5rem;
+}
+.form-group {
+margin-bottom: 1rem;
+}
+.form-label {
+display: block;
+font-size: 0.9rem;
+margin-bottom: 0.4rem;
+font-weight: bold;
+}
+.form-input {
+width: 100%;
+padding: 0.6rem;
+border: 1px solid #ccc;
+border-radius: 0.5rem;
+font-size: 1rem;
+}
+#submitBtn {
+width: 100%;
+padding: 0.8rem;
+border: none;
+background-color: #2563eb;
+color: white;
+font-size: 1rem;
+font-weight: bold;
+border-radius: 0.8rem;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+#submitBtn:hover {
+background-color: #1e40af;
+}
+
+#main_parent_header {
+    height: 10vh;
+    background-color: #e9fce1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    gap:2vw;
+    border:1px solid black
+}
+
+#search_bar_header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1vw;
+}
+
+#search_bar
+{
+    height: 3vh;
+    width:50vw;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#loop_button_search
+{
+    height:5vh;
+    width: 3vw;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: white;
+    border:1px solid black;
+    cursor:pointer;
+    transition: background-color 0.5s;
+}
+#loop_button_search:hover
+{
+    background-color: lightblue;
+}
+#logo_header {
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_logo_header {
+    height: 13vh;
+    width: 10vw;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+#elements_buttons_header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5vw;
+    gap: 2vw;
+}
+
+#SingIn_header {
+    height: 6vh;
+    width: 8vw;
+    background-color: #caf9b6;
+    color: rgb(254, 254, 254);
+    cursor: pointer;
+    font-size: x-large;
+    border-radius: 5px;
+    border:1px solid black;
+    transition: opacity 0.5s, color 0.5s;
+}
+
+#SingIn_header:hover {
+    opacity: 0.8;
+    color: rgb(0, 0, 0);
+}
+#SingIn_header:active
+{
+    opacity: 0.5;
+}
+#Register_header {
+    height: 6vh;
+    width: 8vw;
+    background-color: #00bfa6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: x-large;
+    transition: opacity 0.5s, color 0.5s, border-radius 0.5s, background-color 0.5s;
+}
+#Register_header:hover {
+    opacity: 0.8;
+    color: lightgreen;
+    background-color: #02dbbe;
+    border-radius: 50px;
+}
+#Register_header:active
+{
+    opacity: 0.5;
+}
+#main_parent_footer
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: #ebf3bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#logo_footer_div
+{
+    height:10vh;
+    width: 31%;
+}
+#about_footer_div
+{
+    height: 10vh;
+    width:31%;
+    display: flex;
+    align-items: column;
+    flex-direction: column;
+    gap:20px ;
+    padding: 20px;
+    font-weight: 700;
+}
+#support_footer_div
+{
+    height: 10vh;
+    width: 31%;
+    padding-left: 20px;
+}
+#logo_image_footer
+{
+    height: 15vh;
+    width: 10vw;
+    cursor: pointer;
+    padding-left: 100px;
+}
+#links
+{
+    align-items: column;
+    color:black;
+    font-size: medium;
+    text-decoration: none;
+}

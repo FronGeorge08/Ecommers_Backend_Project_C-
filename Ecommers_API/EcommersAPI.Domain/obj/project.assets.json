@@ -326,10 +326,25 @@
           "bin/placeholder/EccomersAPI.CommonDomain.dll": {}
         }
       },
+      "EccomersAPI.DataAbstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MongoDB.Bson": "3.4.2",
+          "MongoDB.Driver": "3.4.2"
+        },
+        "compile": {
+          "bin/placeholder/EccomersAPI.DataAbstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EccomersAPI.DataAbstraction.dll": {}
+        }
+      },
       "EccomersAPI.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EccomersAPI.DataAbstraction": "1.0.0",
           "MongoDB.Driver": "3.4.2"
         },
         "compile": {
@@ -837,6 +852,11 @@
       "path": "../EccomersAPI.CommonDomain/EccomersAPI.CommonDomain.csproj",
       "msbuildProject": "../EccomersAPI.CommonDomain/EccomersAPI.CommonDomain.csproj"
     },
+    "EccomersAPI.DataAbstraction/1.0.0": {
+      "type": "project",
+      "path": "../EcomersAPI.DataAbstraction/EccomersAPI.DataAbstraction.csproj",
+      "msbuildProject": "../EcomersAPI.DataAbstraction/EccomersAPI.DataAbstraction.csproj"
+    },
     "EccomersAPI.Database/1.0.0": {
       "type": "project",
       "path": "../EccomersAPI.Database/EccomersAPI.Database.csproj",
@@ -859,11 +879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
       "projectName": "EcommersAPI.Domain",
-      "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
+      "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\EcommersAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\frong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EcommersAPI.Domain\\obj\\",
+      "outputPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EcommersAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -885,14 +905,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\BaseDomain\\BaseDomain.csproj"
             },
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.CommonDomain\\EccomersAPI.CommonDomain.csproj"
             },
-            "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
-              "projectPath": "C:\\Users\\frong\\Desktop\\Project\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj"
+            "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj": {
+              "projectPath": "C:\\Users\\frong\\Desktop\\Ecommers_Backend_Project_C-\\Ecommers_API\\EccomersAPI.Database\\EccomersAPI.Database.csproj"
             }
           }
         }
